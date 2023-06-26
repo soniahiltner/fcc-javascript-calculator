@@ -1,0 +1,15 @@
+
+.input,
+.output {
+    height: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: -1px -1px 10px blueviolet, inset -3px -3px 10px  blue;
+    border: 1px solid blueviolet; 
+}

@@ -1,0 +1,17 @@
+.button {
+    height: 5rem;
+    width: 22%;
+    padding: 0;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 25%;
+    user-select: none; 
+    box-shadow: -1px -1px  10px  blueviolet,  inset -1px -1px 10px  blue; 
+    font-size: 1.5rem;
+}
+.button:hover {
+    opacity: 0.6;
+}

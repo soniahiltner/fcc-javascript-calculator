@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.deleteButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+} 
+  
+.delButton {
+  border-radius: 50%;
+  box-shadow: -1px -1px 10px blueviolet, inset -1px -1px 10px  blue;
+  border: 1px solid blueviolet;
+}
+
+.delButton:hover {
+  opacity: 0.6;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttons-disabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.disabledButton {
+  border-radius: 50%;
+  color: white;
+  box-shadow: -1px -1px 4px blueviolet,  inset -1px -1px 10px  blue;
+  border: 1px solid blueviolet;
+  pointer-events: none;
+}
